@@ -1,0 +1,22 @@
+SUPERADMIN
+{
+    System Administrator
+    superadmin@example.com
+    SuperAdmin123!
+}
+ADMINS
+{
+    María Gonzales
+    admin@example.com
+    Admin123!
+}
+CLIENTS
+{
+    Andrés Quispe
+    andres.quispe@example.com
+    AQ_user2025
+
+    Ingesoft Demo
+    ingesoft.25.2@gmail.com
+    superContrasenhaSegura2
+}

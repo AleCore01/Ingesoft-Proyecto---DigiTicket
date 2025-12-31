@@ -1,0 +1,4 @@
+eventId,displayName,price,seatsQuota,seatsSold,status
+1,VIP,250.00,500,0,ACTIVE
+1,General,80.00,5000,0,ACTIVE
+2,Butaca,120.00,800,0,ACTIVE

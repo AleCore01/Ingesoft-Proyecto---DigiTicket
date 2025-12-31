@@ -1,0 +1,27 @@
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        h1 { text-align: center; color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+<h1>Reporte del Dashboard</h1>
+
+<h2>Métricas Diarias</h2>
+<table>
+    <tr><th>Métrica</th><th>Valor</th><th>Variación</th></tr>
+    <tr><td>Entradas Vendidas</td><td>${tickets}</td><td>${ticketsVar}%</td></tr>
+    <tr><td>Ingresos</td><td>S/${revenue}</td><td>${revenueVar}%</td></tr>
+    <tr><td>Visitas</td><td>${visits}</td><td>${visitsVar}%</td></tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+# Normaliza finales de línea
+* text=auto
+
+# Fuerza LF (recomendado en proyectos Java/Node)
+*.java text eol=lf
+*.js   text eol=lf
+*.ts   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sh   text eol=lf

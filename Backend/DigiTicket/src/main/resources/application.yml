@@ -1,0 +1,45 @@
+spring:
+  datasource:
+    url: jdbc:mysql://soft-tickets.chpnaadlbp5k.us-east-1.rds.amazonaws.com:3306/DigiTicket?useSSL=true&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: admin
+    password: jv.Q58a-d.AVh+5
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ingesoft.25.2@gmail.com
+    password: ddqs aryb pgak jmai
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+security:
+  jwt:
+    secret: "ChangeThisSuperSecretKey_AtLeast32Chars_Long_123456"
+    ttlMillis: 900000
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: never
